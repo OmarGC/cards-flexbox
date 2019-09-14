@@ -19,26 +19,26 @@ h3 {
   margin: 0;
   font-weight: 700;
 }
-
-img {
-  display: flex;
-  max-width: 100%;
-}
 .cardFinal {
   max-width: 80%;
   margin: 0 auto;
   margin-bottom: 1rem;
 }
-.contenido {
+img {
+  display: flex;
+  max-width: 100%;
+}
+
+.contenidoCard {
   height: 200px;
   background-color: white;
   text-align: left;
   padding: 1rem;
 }
-.contenido span {
+.contenidoCard span {
   color: darkmagenta;
 }
-.contenido h3 {
+.contenidoCard h3 {
   text-align: left;
   font-size: 0.9rem;
   line-height: 1.4rem;
