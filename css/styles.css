@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  background-color: coral;
+  background-color: rgb(255, 255, 255);
 }
 
 .contenedor {
@@ -29,22 +29,27 @@ h3 {
   max-width: 80%;
   margin: 0 auto;
   margin-bottom: 1rem;
-  border: 2px solid #555;
+  
+  /* width: 275.2px; */
+  /* Tamaño card [Quitar max-width] */
 }
 .cardFinal:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-img {
-  display: flex;
-  max-width: 100%;
-}
 
 
 
 .container-image{
   display:inline-block;
   position:relative;
+  
+  }
+  img {
+    display: flex;
+    max-width: 100%;
+    
+    height: 250px;
   }
   
   .container-image button{
